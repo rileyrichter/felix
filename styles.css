@@ -1,5 +1,35 @@
-@media only screen and (min-width: 1200px) {
-  body {
-    font-size: 14.4px;
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+@media only screen and (min-width: 1320px) {
+  .defeat-number {
+    position: absolute !important;
+    left: -7.5% !important;
+    top: -10% !important;
+    right: auto !important;
+    bottom: auto !important;
+    z-index: 0 !important;
+    display: flex !important;
+    width: 115px !important;
+    height: 115px !important;
+    font-size: 70px !important;
+    line-height: 110% !important;
+    font-weight: 500 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .defeat-number {
+    position: static;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 30px;
+    font-size: 38px;
   }
 }
